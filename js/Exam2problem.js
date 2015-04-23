@@ -9,7 +9,7 @@ function CreateCategory()
     var categorydescription=document.getElementById("catdescription").value;
     
     //Create the parameter string
-    var newcategory='{"CategoryName":"' + categoryname + '","CategoryDescription":"' + categorydescription+ '"}';
+    var newcategory='{"CName":"' + categoryname + '","CDescription":"' + categorydescription+ '"}';
     
     //Checking for AJAx operation return
     objRequest.onreadystatechange=function()
@@ -90,9 +90,9 @@ function updateCatDescription()
     
     //Collect New updated shipping info from section 2 of webpage
     var newcategorydescription=document.getElementById("newcatdescription").value;   
-    
+    var newcategoryid=document.getElementById("newcatid").value;
     //Create the parameter string
-    var newdescription='{"CategoryDescription":"' +newcategorydescription+'"}';
+    var newdescription='{"CID":"' + newcategoryid + '","CDescription":"' + newcategorydescription+ '"}';
     
    //Checking for AJAx operation return
     objRequest.onreadystatechange=function()
