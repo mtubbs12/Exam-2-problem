@@ -1,0 +1,8 @@
+body {background-color: #F1D2B1;}
+.warning {font-style: italic; color: red;}
+h1 {font-family: sans-serif; text-align: center; color: #A30600;}
+section.section1 {visibility: hidden;}
+section.section2 {visibility: hidden;}
+section.section3 {visibility: hidden;}
+section.section4 {visibility: hidden;}
+section.section5 {visibility: hidden;}
